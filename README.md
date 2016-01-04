@@ -13,7 +13,7 @@ is a much cleaner solution for working with virtual environments.
 
 Configuration
 -------------
- like to separate a project directory (with the source code) and its
+I like to separate a project directory (with the source code) and its
 virtualenv directory (which contains the Python interpreter and the
 necessary modules). Thus, I have the following line in my `.bashrc` file:
 
@@ -69,6 +69,6 @@ If you want to create a new project and you want to put it in a
 virt. env., then do this:
 
 * create a project folder and copy the two files (`mk_venv.sh` and `on.sh`) in it
-* create the virt. env. with `mk_venv.sh`
-* activate the virt. env. with `on.sh`
+* create the virt. env. with `./mk_venv.sh`
+* activate the virt. env. with `./on.sh`
 * deactivate the virt. env. with `off`
