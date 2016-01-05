@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-pew workon `basename "$PWD"`
+d=`/bin/pwd`
+pew workon `basename "$d"`
